@@ -1,0 +1,32 @@
+timestamp: '2025-09-18 20:29:51'
+class_dirs:
+- C:\Users\NXTWAVE\Downloads\Alzheimer’s Detection\archive\OriginalDataset\VeryMildDemented
+- C:\Users\NXTWAVE\Downloads\Alzheimer’s Detection\archive\OriginalDataset\NonDemented
+- C:\Users\NXTWAVE\Downloads\Alzheimer’s Detection\archive\OriginalDataset\ModerateDemented
+- C:\Users\NXTWAVE\Downloads\Alzheimer’s Detection\archive\OriginalDataset\MildDemented
+out_dir: C:\Users\NXTWAVE\Downloads\Alzheimer’s Detection
+classes:
+- MildDemented
+- ModerateDemented
+- NonDemented
+- VeryMildDemented
+class_counts:
+  VeryMildDemented: 2240
+  NonDemented: 3200
+  ModerateDemented: 64
+  MildDemented: 896
+hyperparameters:
+  img_size: 224
+  batch_size: 32
+  epochs: 5
+  learning_rate: 0.0001
+  val_split: 0.2
+  augment: true
+  model_name: EfficientNetB0
+  label_smoothing: 0.0
+artifacts:
+  model_h5: C:\Users\NXTWAVE\Downloads\Alzheimer’s Detection\neurowell_model.h5
+  best_checkpoint: C:\Users\NXTWAVE\Downloads\Alzheimer’s Detection\neurowell_best.keras
+  label_encoder_pkl: C:\Users\NXTWAVE\Downloads\Alzheimer’s Detection\label_encoder.pkl
+  report_json: C:\Users\NXTWAVE\Downloads\Alzheimer’s Detection\report.json
+notes: Dataset loaded via Python/OpenCV to avoid Unicode issues in tf.io.

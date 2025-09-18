@@ -1,0 +1,89 @@
+{
+  "project": "NeuroWell",
+  "timestamp": "2025-09-18 20:29:51",
+  "class_dirs": [
+    "C:\\Users\\NXTWAVE\\Downloads\\Alzheimer’s Detection\\archive\\OriginalDataset\\VeryMildDemented",
+    "C:\\Users\\NXTWAVE\\Downloads\\Alzheimer’s Detection\\archive\\OriginalDataset\\NonDemented",
+    "C:\\Users\\NXTWAVE\\Downloads\\Alzheimer’s Detection\\archive\\OriginalDataset\\ModerateDemented",
+    "C:\\Users\\NXTWAVE\\Downloads\\Alzheimer’s Detection\\archive\\OriginalDataset\\MildDemented"
+  ],
+  "classes": [
+    "MildDemented",
+    "ModerateDemented",
+    "NonDemented",
+    "VeryMildDemented"
+  ],
+  "class_counts": {
+    "VeryMildDemented": 2240,
+    "NonDemented": 3200,
+    "ModerateDemented": 64,
+    "MildDemented": 896
+  },
+  "metrics": {
+    "val_loss": 0.9463939666748047,
+    "val_accuracy": 0.534375011920929
+  },
+  "samples": [
+    {
+      "true": "VeryMildDemented",
+      "pred": "VeryMildDemented",
+      "confidence": 0.47481340169906616
+    },
+    {
+      "true": "VeryMildDemented",
+      "pred": "VeryMildDemented",
+      "confidence": 0.4863738715648651
+    },
+    {
+      "true": "MildDemented",
+      "pred": "VeryMildDemented",
+      "confidence": 0.35610219836235046
+    },
+    {
+      "true": "MildDemented",
+      "pred": "MildDemented",
+      "confidence": 0.39687082171440125
+    },
+    {
+      "true": "MildDemented",
+      "pred": "VeryMildDemented",
+      "confidence": 0.4363158345222473
+    },
+    {
+      "true": "VeryMildDemented",
+      "pred": "NonDemented",
+      "confidence": 0.5068415403366089
+    },
+    {
+      "true": "NonDemented",
+      "pred": "NonDemented",
+      "confidence": 0.49831661581993103
+    },
+    {
+      "true": "ModerateDemented",
+      "pred": "NonDemented",
+      "confidence": 0.5964077711105347
+    },
+    {
+      "true": "MildDemented",
+      "pred": "NonDemented",
+      "confidence": 0.4462278187274933
+    },
+    {
+      "true": "MildDemented",
+      "pred": "VeryMildDemented",
+      "confidence": 0.4276508688926697
+    },
+    {
+      "true": "NonDemented",
+      "pred": "NonDemented",
+      "confidence": 0.6908655166625977
+    },
+    {
+      "true": "NonDemented",
+      "pred": "NonDemented",
+      "confidence": 0.7215192317962646
+    }
+  ],
+  "notes": "Prototype; not for clinical use."
+}
