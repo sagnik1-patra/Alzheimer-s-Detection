@@ -1,0 +1,10 @@
+                  precision    recall  f1-score   support
+
+    MildDemented     0.6182    0.0076    0.0150      8960
+ModerateDemented     0.0000    0.0000    0.0000         0
+     NonDemented     0.4151    0.8852    0.5651      9600
+VeryMildDemented     0.3349    0.2593    0.2923      8960
+
+        accuracy                         0.3957     27520
+       macro avg     0.3420    0.2880    0.2181     27520
+    weighted avg     0.4551    0.3957    0.2972     27520
